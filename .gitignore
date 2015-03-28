@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.pdf
+*.run.xml
+*.toc
+main.tex
