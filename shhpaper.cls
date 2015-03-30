@@ -42,7 +42,7 @@
 \RequirePackage[hmargin={2.5cm,3cm},vmargin=2.5cm,a4paper]{geometry}
 \usepackage[normalem]{ulem}         % Underlining of subsubsections.
 \usepackage{csquotes}               % Required by biblatex
-\usepackage[style=apa]{biblatex}
+\usepackage[style=apa,backend=biber]{biblatex}
 \DeclareLanguageMapping{swedish}{swedish-apa}
 
 \DefineBibliographyStrings{swedish}{
