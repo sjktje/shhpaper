@@ -43,6 +43,7 @@
 \RequirePackage[hmargin={2.5cm,3cm},vmargin=2.5cm,a4paper]{geometry}
 \usepackage[normalem]{ulem}         % Underlining of subsubsections.
 \usepackage{fixltx2e}                % For \textsubscript etc
+\usepackage{booktabs}
 \usepackage{csquotes}               % Required by biblatex
 \usepackage[style=apa,backend=biber]{biblatex}
 \DeclareLanguageMapping{swedish}{swedish-apa}
