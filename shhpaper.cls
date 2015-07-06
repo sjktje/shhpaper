@@ -35,6 +35,7 @@
 \RequirePackage[swedish]{babel}     % Swedish hyphenation
 \RequirePackage{txfonts}            % Using the Times font is required 
 \RequirePackage[utf8]{inputenc}     % For åäö
+\RequirePackage[T1]{fontenc}        % Attempt to make pdf copy pastable
 \RequirePackage{sectsty}            % To change section headings etc
 \RequirePackage{graphicx}
 \RequirePackage[yyyymmdd]{datetime} % For date in the right format.
@@ -104,7 +105,7 @@
     \vspace{2cm}
 
     \begin{center}
-        \shhlogo
+        \shhlogo%
 
         \vspace{2cm}
 
@@ -144,7 +145,7 @@
             \end{tabular}
         \end{flushright}
     \end{minipage}
-    \restoregeometry
+    \restoregeometry%
     \@thanks
     \global\let\thanks\relax
     \global\let\maketitle\relax
