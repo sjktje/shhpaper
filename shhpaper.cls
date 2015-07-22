@@ -45,7 +45,7 @@
 \usepackage{fixltx2e}                % For \textsubscript etc
 \usepackage{booktabs}
 \usepackage{csquotes}               % Required by biblatex
-\usepackage[style=apa,backend=biber]{biblatex}
+\usepackage[style=apa,backend=biber,sortlocale=sv_SE]{biblatex}
 \DeclareLanguageMapping{swedish}{swedish-apa}
 
 \DefineBibliographyStrings{swedish}{
